@@ -1,0 +1,456 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="vi" lang="vi">
+
+<head>
+	<title>Our Love</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" href="favicon.ico" >
+	<style type="text/css">
+		@font-face {
+			font-family: digit;
+			src: url('times.ttf') format("truetype");
+		}
+	</style>
+	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:700&v2' rel='stylesheet' type='text/css'>
+	<link href="css/default_dev.css" type="text/css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/curtain.css">
+	<link rel="stylesheet" href="css/endcover.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+</head>
+
+<body>
+
+<div class="loading" id="onlo">
+	<span>Chờ em nhé! Em đang loading :D</span>
+</div>
+
+<ul class="menu">
+    <li><button href="#up">∧</button></li>
+    <li><button href="#down">∨</button></li>
+</ul>
+
+<ul id="curtain-links-menu">
+    <li><a href="#lovetime" class="curtain-links">Love Time</a></li>
+    <li><a href="#lovebg" class="curtain-links">Love BG</a></li>
+    <li><a href="#loveletter" class="curtain-links">Love Letter</a></li>
+    <li><a href="#lovecover" class="curtain-links">Love Cover</a></li>
+</ul>
+
+
+	
+<ol class="curtains">
+    <li id="lovetime" class="cover">
+        <article>
+		<canvas id="myCanvas" width="700" height="700"></canvas>
+            <div id="time" style="display:none;">
+			<h1>TẶNG ANH NÈ!!!</h1>
+			<div id="elapseClock"></div>
+			<div id="arrow" style="text-align:center;margin-top:100px;display:none;"><img src="images/jianpan.gif" /></div>
+			</div>
+			
+        </article>
+    </li>
+	
+	<li id="lovebg" class="cover">
+		<div class="cover-wrapper">
+			<img src="images/Linh1.jpg"/>
+			<span>Món quà năm mới tặng riêng anh :)</span>
+		</div>
+    </li>
+
+	<!-- way to nanjing -->
+	<li id="way2nj" class="way">
+		<div id="intro"><img src="images/Linh2.jpg" class="first"></div>
+		<div id="story">
+			<div class="row1 col5">
+				<h1 class="size3" style="color:#333;">LinhCancer & ĐứcPV</h1>
+				<h2>Cái quái gì đây???</h2>
+				<blockquote class="width8 ">
+					<p><strong>07/05: </strong><strong>Anh hỏi em: "Liệu t có cơ hội ko nhỉ 🙂"</strong></p>
+					<p><strong>11/06: </strong><strong>Em mất đi nụ hôn đầu :( </strong></p>
+
+					<p>.......................</p>		
+				</blockquote>
+			</div>
+		</div>
+	</li>
+		
+			
+		<!-- way to TJ-->	
+		<li class="way" id="way2tj">
+			<div id="intro"><img src="images/Linh3.jpg" class="first"></div>
+			<div id="story">
+				<div class="row1 col1">
+				<h1 class="size3">Đêm hôm ấy</h1>
+				<h2>Con tim em đã bị lỡ nhịp vì anh &#x2661</h2>
+				<blockquote class="width4 ">
+				<p>Cảm ơn anh vì đã luôn yêu thương em</p>
+				<p>và trở thành một phần cuộc sống của em  &#x2661.</p>
+				</blockquote>
+				</div>
+			</div>
+		</li>
+		
+		<!-- way to CD-->
+		<li class="way" id="way2cd">	
+			<div id="intro"><img src="images/Linh4.jpg" class="first"></div>
+			<div id="story">
+				<div class="row1 col5">
+					<h1 class="size3">Và rồi...</h1>
+					<h2>Chúng ta đã lỡ yêu nhau</h2>
+					<blockquote class="width8 ">
+						<p><strong>30-05:</strong> Anh rủ em đi phượt Mộc Châu... &#x1F61A</p>
+						<p>Nhưng hình như anh không nhớ :( </p>
+						<p> Anh luôn làm em buồn như vậy :'( </p>
+					</blockquote>
+				</div>
+			</div>
+		</li>
+		
+		<!-- way to CQ-->
+		<li class="way" id="way2cq">
+			<div id="intro"><img src="images/Linh5.jpg" class="first"></div>
+			<div id="story">
+				<div class="row1 col5">
+					<h1 class="size3">Tháng ngày bên anh...</h1>
+					<h2>...là những chuyến đi...</h2>
+					<blockquote class="width8 ">
+						<p><strong></strong>...tay trong tay...</p>
+						<p><strong>Phượt with IS: </strong>Em vô tư nắm tay anh qua những nẻo đường</p>
+						<p><strong>XUÂN HOÀ: </strong> được anh ôm ngủ trong cơn sốt nhẹ...</p>
+					</blockquote>
+				</div>
+			</div>
+		</li>
+		
+		<!-- way to SHIDU-->`
+		<li class="way" id="way2sd">
+			<div id="intro"><img src="images/Linh6.jpg" class="first"></div>
+			<div id="story">
+				<div class="row1 col1">
+					<h1 class="size3">The first time,...</h1>
+					<h2>I stood by you on your birthday</h2>
+					<blockquote class="width5 ">
+						<p>"Happy Birthday Ngốc Yêu!!!"</p>
+						<p>Trong quán nhỏ nhưng ấm áp vô cùng</p>
+						<p>Lêu lêu, anh ngốc không biết em bí mật tổ chức sinh nhật cho anh</p>
+					</blockquote>
+				</div>
+			</div>
+		</li>
+		<!-- end way to shidu-->
+		
+		<!-- way to zhimaowan-->
+		<li class="way" id="way2zmw">
+			<div id="intro"><img src="images/Linh7.jpg" class="first"></div>
+			<div id="story">
+				<div class="row1 col1">
+					<h1 class="size3">Em hi vọng...</h1>
+					<h2>Năm sau...</h2>
+					<blockquote class="width5 ">
+						<p>Sinh nhật của em sẽ có anh bên cạnh &#x2764 và...</p>
+						<p>Chúng ta sẽ cùng làm chiếc bánh kem thật xinh nhé!</p>
+					</blockquote>
+				</div>
+			</div>
+		</li>
+	
+	<!-- way to smile-->
+		<li class="way" id="smiles">
+			<h1 class="title">~ Em	&#x2764 Anh ~</h1>
+			<section class="pe-container">
+			<!-- Tất cả các ảnh xuất hiện dưới đây phải để trong thư mục thumbs -->
+				<ul id="pe-thumbs" class="pe-thumbs">
+					<li><a href="#"><img src="images/thumbs/1.jpg" /><div class="pe-description"><h3>Try Hard</h3><p>Em ghét anh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/3.jpg" /><div class="pe-description"><h3>Working</h3><p>Nhớ anh nhiều</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/4.jpg" /><div class="pe-description"><h3>Hug</h3><p>Em muốn được ôm</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/5.jpg" /><div class="pe-description"><h3>Deep</h3><p>Nhớ thì phải làm sao?</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/6.jpg" /><div class="pe-description"><h3>Drink</h3><p>Anh bỏ mặc em</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/7.jpg" /><div class="pe-description"><h3>Crazy</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/8.jpg" /><div class="pe-description"><h3>Bíp bịp</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/9.jpg" /><div class="pe-description"><h3>Smile</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/10.jpg" /><div class="pe-description"><h3>The first</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/11.jpg" /><div class="pe-description"><h3>Đớp</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/13.jpg" /><div class="pe-description"><h3>Memories</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/14.jpg" /><div class="pe-description"><h3>Happiness</h3><p>Tiêu đề ảnh is LOVE ...</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/15.jpg" /><div class="pe-description"><h3>Chẹp chẹp</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/16.jpg" /><div class="pe-description"><h3>Cáu kỉnh</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/17.jpg" /><div class="pe-description"><h3>Look</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/19.jpg" /><div class="pe-description"><h3>Couple face</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/20.jpg" /><div class="pe-description"><h3>Thankful</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/21.jpg" /><div class="pe-description"><h3>Lover</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/22.jpg" /><div class="pe-description"><h3>Lovely</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/23.jpg" /><div class="pe-description"><h3>Bùm bùm</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/24.jpg" /><div class="pe-description"><h3>Alone</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/25.jpg" /><div class="pe-description"><h3>Thè</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/26.jpg" /><div class="pe-description"><h3>So sad</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/27.jpg" /><div class="pe-description"><h3>Lover</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/28.jpg" /><div class="pe-description"><h3>Old Year</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/29.jpg" /><div class="pe-description"><h3>Sunshine</h3><p>A Kiss...</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/30.jpg" /><div class="pe-description"><h3>My Life</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/31.jpg" /><div class="pe-description"><h3>Cool</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/32.jpg" /><div class="pe-description"><h3>My Smile</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/33.jpg" /><div class="pe-description"><h3>Love you</h3><p>Tiêu đề ảnh...</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/34.jpg" /><div class="pe-description"><h3>KTV</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/35.jpg" /><div class="pe-description"><h3>Kiss</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/36.jpg" /><div class="pe-description"><h3>Forever</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/17.jpg" /><div class="pe-description"><h3>Look</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/19.jpg" /><div class="pe-description"><h3>Couple face</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/20.jpg" /><div class="pe-description"><h3>Thankful</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/21.jpg" /><div class="pe-description"><h3>Lover</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/22.jpg" /><div class="pe-description"><h3>New Year</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/23.jpg" /><div class="pe-description"><h3>Look</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/24.jpg" /><div class="pe-description"><h3>Traveling Alone</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/25.jpg" /><div class="pe-description"><h3>Couple face</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/26.jpg" /><div class="pe-description"><h3>Thankful</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/27.jpg" /><div class="pe-description"><h3>Lover</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/28.jpg" /><div class="pe-description"><h3>New Year</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/29.jpg" /><div class="pe-description"><h3>Sunshine</h3><p>A Kiss...</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/30.jpg" /><div class="pe-description"><h3>My Life</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/31.jpg" /><div class="pe-description"><h3>Winter</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/32.jpg" /><div class="pe-description"><h3>My bag Your Smile</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/33.jpg" /><div class="pe-description"><h3>Love you</h3><p>Tiêu đề ảnh...</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/34.jpg" /><div class="pe-description"><h3>KTV</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/35.jpg" /><div class="pe-description"><h3>Kiss</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/36.jpg" /><div class="pe-description"><h3>Forever</h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/11.jpg" /><div class="pe-description"><h3>Smile </h3><p>Tiêu đề ảnh</p></div></a></li>
+					<li><a href="#"><img src="images/thumbs/13.jpg" /><div class="pe-description"><h3>Memories</h3><p>Tiêu đề ảnh</p></div></a></li>
+
+				</ul>
+			</section>
+		</li>
+    <!-- Thư tình - Tâm Thư -->
+	<li id="loveletter">
+        <div class="fixed">
+            <h1>Love Letter</h1>
+			<p>Người đàn ông em yêu đôi khi</p>
+			<p>Có những phút giây yếu đuối không ngờ</p>
+			<p>Ngoài kia nếu có khó khăn quá về nhà anh nhé</p>
+			<p>Có em chờ!</p>
+        </div>
+        <div class="content-wrapper">
+			<ul class="steplist">
+			<li class="step">
+            <h1>Dear Anh ơiiiii:</h1>
+			Hôm qua, em đã ngồi viết ra những dòng tâm trạng thật dài muốn chia sẻ cùng anh <br><br>
+			Nhưng rồi, em lại bị buồn và tủi thân <br><br>
+			Em nhớ anh mà không biết phải làm sao <br><br>
+			Em lại khóc thật nhiều! <br><br>
+			Bắt đền anh đấy!!! <br><br>
+			<br><br><br><br>
+
+			EM YÊU ANH NHIỀU!
+            </li>
+			</ul>
+        </div>
+    </li>
+    <!-- Kết thúc thư tình -->
+    <li id="lovecover">
+		<!-- Ảnh nền và video -->
+		<ul class="steplist">
+			<li class="step" id="step1"></li>
+			<li class="step" id="step2"></li>
+			<li class="step say">
+					<h1>Tặng riêng anh - người đàn ông mà em yêu <3</h1>
+					<p>Em...<br/>Không lung linh... Nhưng em đủ chung tình. Và em...</p>
+					<p>Luôn sống hết mình để tình yêu của em tồn tại... <3</p>
+					<h3 class="videoLink">Here is A Video</h3>
+			</li>
+			<li class="step" id="step4"></li>
+		</ul>
+		<!-- Add background tại đây. Lưu ý cần phải bỏ những chi tiết thừa chỉ trừa lại đối tượng -->
+			<img src="images/Linh8.png" height="100%" id="seventhImg" class="full-background">
+			
+		<!--Add Video ở đây -->
+		<div class="videoCurtain">&nbsp;</div>
+		<video controls class="videoLarge" preload="auto">
+			<!-- <source src="http://vid1158.photobucket.com/albums/p605/dylan_li/video.mp4" type="video/mp4"> -->
+		</video>
+		<!--end of video -->
+    </li>
+
+</ol>
+<!-- Nhạc nền -->
+<audio src="music/123.mp3" autoplay="autoplay" loop="3" /> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/curtain.js"></script>
+<script>
+    $(function(){
+       $('.curtains').curtain({
+           scrollSpeed: 450,
+           controls: '.menu',
+           curtainLinks: '.curtain-links'
+       });
+    });
+</script>
+<script type="text/javascript" src="js/jquery.proximity.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Photo	= (function() {
+					
+						// list of thumbs
+					var $list		= $('#pe-thumbs'),
+						// list's width and offset left.
+						// this will be used to know the position of the description container
+						listW		= $list.width(),
+						listL		= $list.offset().left,
+						// the images
+						$elems		= $list.find('img'),
+						// the description containers
+						$descrp		= $list.find('div.pe-description'),
+						// maxScale : maximum scale value the image will have
+						// minOpacity / maxOpacity : minimum (set in the CSS) and maximum values for the image's opacity
+						settings	= {
+							maxScale	: 1.3,
+							maxOpacity	: 0.9,
+							minOpacity	: Number( $elems.css('opacity') )
+						},
+						init		= function() {
+							
+							// minScale will be set in the CSS
+							settings.minScale = _getScaleVal() || 1;
+							// preload the images (thumbs)
+							_loadImages( function() {
+								
+								_calcDescrp();
+								_initEvents();
+							
+							});
+						
+						},
+						// Get Value of CSS Scale through JavaScript:
+						// http://css-tricks.com/get-value-of-css-rotation-through-javascript/
+						_getScaleVal= function() {
+						
+							var st = window.getComputedStyle($elems.get(0), null),
+								tr = st.getPropertyValue("-webkit-transform") ||
+									 st.getPropertyValue("-moz-transform") ||
+									 st.getPropertyValue("-ms-transform") ||
+									 st.getPropertyValue("-o-transform") ||
+									 st.getPropertyValue("transform") ||
+									 "fail...";
+
+							if( tr !== 'none' ) {	 
+
+								var values = tr.split('(')[1].split(')')[0].split(','),
+									a = values[0],
+									b = values[1],
+									c = values[2],
+									d = values[3];
+
+								return Math.sqrt( a * a + b * b );
+							
+							}
+							
+						},
+						// calculates the style values for the description containers,
+						// based on the settings variable
+						_calcDescrp	= function() {
+							
+							$descrp.each( function(i) {
+							
+								var $el		= $(this),
+									$img	= $el.prev(),
+									img_w	= $img.width(),
+									img_h	= $img.height(),
+									img_n_w	= settings.maxScale * img_w,
+									img_n_h	= settings.maxScale * img_h,
+									space_t = ( img_n_h - img_h ) / 2,
+									space_l = ( img_n_w - img_w ) / 2;
+								
+								$el.data( 'space_l', space_l ).css({
+									height	: settings.maxScale * $el.height(),
+									top		: -space_t,
+									left	: img_n_w - space_l
+								});
+							
+							});
+						
+						},
+						_initEvents	= function() {
+						
+							$elems.on('proximity.Photo', { max: 80, throttle: 10, fireOutOfBounds : true }, function(event, proximity, distance) {
+								
+								var $el			= $(this),
+									$li			= $el.closest('li'),
+									$desc		= $el.next(),
+									scaleVal	= proximity * ( settings.maxScale - settings.minScale ) + settings.minScale,
+									scaleExp	= 'scale(' + scaleVal + ')';
+								
+								// change the z-index of the element once it reaches the maximum scale value
+								// also, show the description container
+								if( scaleVal === settings.maxScale ) {
+									
+									$li.css( 'z-index', 1000 );
+									
+									if( $desc.offset().left + $desc.width() > listL + listW ) {
+										
+										$desc.css( 'left', -$desc.width() - $desc.data( 'space_l' ) );
+									
+									}
+									
+									$desc.fadeIn( 800 );
+									
+								}	
+								else {
+									
+									$li.css( 'z-index', 1 );
+								
+									$desc.stop(true,true).hide();
+								
+								}	
+								
+								$el.css({
+									'-webkit-transform'	: scaleExp,
+									'-moz-transform'	: scaleExp,
+									'-o-transform'		: scaleExp,
+									'-ms-transform'		: scaleExp,
+									'transform'			: scaleExp,
+									'opacity'			: ( proximity * ( settings.maxOpacity - settings.minOpacity ) + settings.minOpacity )
+								});
+
+							});
+						
+						},
+						_loadImages	= function( callback ) {
+							
+							var loaded 	= 0,
+								total	= $elems.length;
+							
+							$elems.each( function(i) {
+								
+								var $el = $(this);
+								
+								$('<img/>').load( function() {
+									
+									++loaded;
+									if( loaded === total )
+										callback.call();
+									
+								}).attr( 'src', $el.attr('src') );
+							
+							});
+						
+						};
+					
+					return {
+						init	: init
+					};
+				
+				})();
+				
+				Photo.init();
+				
+			});
+		</script>
+	
+
+<script type="text/javascript" src="js/lovetime.js"></script>
+<script type="text/javascript" src="js/heart.js"></script>
+<script type="text/javascript" src="js/my.js"></script>
+</body>
+</html>
